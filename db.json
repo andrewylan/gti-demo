@@ -1,14 +1,63 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
+  "settings": {
+    "company": "GoTrustID Inc.",
+    "server-url": "https://adfs.gotrustid.com/mfa",
+    "user-portal-url": "https://adfs.gotrustid.com/userportal",
+    "google-fcm": "default",
+    "sms": {
+      "setting": "disable",
+      "resending": 60
+    },
+    "email": "disable",
+    "message-template": "[otp] sending from GoTrustID Inc.",
+    "ttl": {
+      "register": 120,
+      "authenticate": 120
+    },
+    "security-question": {
+      "minimum": 1
+    },
+    "ldap": {
+      "enabled": true,
+      "host": "192.168.0.253",
+      "base-dn": "OU=sales, DC=gotrustid, DC=com",
+      "binding-dn": "OU=Administrator, DC=gotrustid, DC=com",
+      "binding-password": "pw12345",
+      "security": {
+        "ssl": false
+      },
+      "group": "GoTrustID Business Service",
+      "sync": 30
+    }
+  },
+  "about": {
+    "version": "2.1.0.1",
+    "expiration": "2020-01-01",
+    "quantity": {
+      "used": 92,
+      "allowed": 100
+    },
+    "platform": [
+      {
+        "name": "windows",
+        "used": 62,
+        "allowed": 50
+      },
+      {
+        "name": "macos",
+        "used": 30,
+        "allowed": 50
+      }
+    ],
+    "module": [
+      {
+        "name": "PC Unlock",
+        "enabled": true
+      },
+      {
+        "name": "MFA",
+        "enabled": false
+      }
+    ]
   }
 }

@@ -1,6 +1,17 @@
 {
+  "tests": [
+    {
+      "id": 1,
+      "name": "test1"
+    },
+    {
+      "id": 2,
+      "name": "test2"
+    }
+    ],
   "settings":[
     {
+      "id": 1,
       "company":"GoTrustID Inc.",
       "server-url":"https://adfs.gotrustid.com/mfa",
       "user-portal-url":"https://adfs.gotrustid.com/userportal",
@@ -34,6 +45,7 @@
   ],
   "about":[
     {
+      "id": 1,
       "version":"2.1.0.1",
       "expiration":"2020-01-01",
       "quantity":{

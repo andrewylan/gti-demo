@@ -1,4 +1,16 @@
 {
+  "auth-users": [
+    {
+      "id": "demo",
+      "password": "demo",
+      "role": "admin"
+    },
+    {
+      "id": "user",
+      "password": "user",
+      "role": "user"
+    }
+  ],
   "tests": [
     {
       "id": 1,

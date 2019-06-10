@@ -15,31 +15,31 @@
       "id": 1,
       "type": "warning",
       "description": "someone is trying to impersonating the user 001",
-      "timestamp": "2018-08-29 12:00:00PM"
+      "timestamp": "2018-08-29 12:00:00"
     },
     {
       "id": 2,
       "type": "critical",
       "description": "server is not responding 002",
-      "timestamp": "2018-08-29 12:03:00PM"
+      "timestamp": "2018-08-29 12:03:00"
     },
     {
       "id": 3,
       "type": "warning",
       "description": "someone is trying to impersonating the user 003",
-      "timestamp": "2018-08-29 12:04:00PM"
+      "timestamp": "2018-08-29 12:04:00"
     },
     {
       "id": 4,
       "type": "error",
       "description": "server is not responding 004",
-      "timestamp": "2018-08-29 12:10:00PM"
+      "timestamp": "2018-08-29 12:10:00"
     },
     {
       "id": 5,
       "type": "warning",
       "description": "someone is trying to impersonating the user 005",
-      "timestamp": "2018-08-29 3:00:00PM"
+      "timestamp": "2018-08-29 13:00:00"
     }
   ],
   "settings":[

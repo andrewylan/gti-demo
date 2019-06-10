@@ -87,5 +87,37 @@
         }
       ]
     }
-  ]
+  ],
+  "about_new":
+    {
+      "id": 1,
+      "version":"2.1.0.1",
+      "expiration":"2020-01-01",
+      "quantity":{
+        "used":92,
+        "allowed":100
+      },
+      "platform":[
+        {
+          "name":"windows",
+          "used":62,
+          "allowed":50
+        },
+        {
+          "name":"macos",
+          "used":30,
+          "allowed":50
+        }
+      ],
+      "module":[
+        {
+          "name":"PC Unlock",
+          "enabled":true
+        },
+        {
+          "name":"MFA",
+          "enabled":false
+        }
+      ]
+    }
 }

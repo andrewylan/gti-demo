@@ -1,26 +1,47 @@
 {
-  "auth-users": [
-    {
-      "id": "demo",
-      "password": "demo",
-      "role": "admin"
-    },
-    {
-      "id": "user",
-      "password": "user",
-      "role": "user"
-    }
-  ],
-  "tests": [
+  "users": [
     {
       "id": 1,
-      "name": "test1"
+      "full_name": "Kevin Lee",
+      "email": "qa02@adfs.go-trust.com",
+      "mode": "",
+      "last_access": "2019-08-29",
+      "provider": [
+      ]
+    }
+  ],
+  "logs": [
+    {
+      "id": 1,
+      "type": "warning",
+      "description": "someone is trying to impersonating the user 001",
+      "timestamp": "2018-08-29 12:00:00PM"
     },
     {
       "id": 2,
-      "name": "test2"
+      "type": "critical",
+      "description": "server is not responding 002",
+      "timestamp": "2018-08-29 12:03:00PM"
+    },
+    {
+      "id": 3,
+      "type": "warning",
+      "description": "someone is trying to impersonating the user 003",
+      "timestamp": "2018-08-29 12:04:00PM"
+    },
+    {
+      "id": 4,
+      "type": "error",
+      "description": "server is not responding 004",
+      "timestamp": "2018-08-29 12:10:00PM"
+    },
+    {
+      "id": 5,
+      "type": "warning",
+      "description": "someone is trying to impersonating the user 005",
+      "timestamp": "2018-08-29 3:00:00PM"
     }
-    ],
+  ],
   "settings":[
     {
       "id": 1,

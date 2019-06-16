@@ -2,10 +2,123 @@
   "users": [
     {
       "id": 1,
-      "full_name": "Kevin Lee",
+      "name": "Kevin Lee",
       "email": "qa02@adfs.go-trust.com",
-      "mode": "",
-      "last_access": "2019-08-29",
+      "enabled": true,
+      "mode": [
+        "Internet"
+      ],
+      "last_access": "2019/08/29",
+      "provider": [
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Jessica Wang",
+      "email": "chunhsiung.hsu@adfs.go-trust.com",
+      "enabled": true,
+      "mode": [
+        "BLE",
+        "Internet"
+      ],
+      "last_access": "2019/08/29",
+      "provider": [
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Amy Wu",
+      "email": "qa01@adfs.go-trust.com",
+      "enabled": false,
+      "mode": [
+        "BLE"
+      ],
+      "last_access": "2019/08/29",
+      "provider": [
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Andy Cheng",
+      "email": "asus@adfs.go-trust.com",
+      "enabled": false,
+      "mode": [
+        "BLE"
+      ],
+      "last_access": "2019/08/29",
+      "provider": [
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Angelica Ramos",
+      "email": "mark.yang@adfs.go-trust.com",
+      "enabled": false,
+      "mode": [
+        "BLE"
+      ],
+      "last_access": "2019/08/29",
+      "provider": [
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Bradley Greer",
+      "email": "mark.yang@adfs.go-trust.com",
+      "enabled": true,
+      "mode": [
+        "BLE",
+        "Internet"
+      ],
+      "last_access": "2019/08/29",
+      "provider": [
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Cedric Kelly",
+      "email": "b.wagner@datatables.net",
+      "enabled": true,
+      "mode": [
+        "BLE"
+      ],
+      "last_access": "2019/08/29",
+      "provider": [
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Bruno Nash",
+      "email": "c.vance@datatables.net",
+      "enabled": true,
+      "mode": [
+        "Internet"
+      ],
+      "last_access": "2019/08/29",
+      "provider": [
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Brielle Williamson",
+      "email": "a.satou@datatables.net",
+      "enabled": true,
+      "mode": [
+        "Internet"
+      ],
+      "last_access": "2019/08/29",
+      "provider": [
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Brandon Williamson",
+      "email": "b.vance@datatables.net",
+      "enabled": true,
+      "mode": [
+        "Internet"
+      ],
+      "last_access": "2019/08/29",
       "provider": [
       ]
     }

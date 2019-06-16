@@ -245,38 +245,51 @@
       "timestamp": "2018-10-30T23:59:00.000Z"
     }
   ],
-  "settings":[
+  "administrator": [
     {
       "id": 1,
-      "company":"GoTrustID Inc.",
-      "server-url":"https://adfs.gotrustid.com/mfa",
-      "user-portal-url":"https://adfs.gotrustid.com/userportal",
-      "google-fcm":"default",
-      "sms":{
-        "setting":"disable",
-        "resending":60
-      },
-      "email":"disable",
-      "message-template":"[otp] sending from GoTrustID Inc.",
-      "ttl":{
-        "register":120,
-        "authenticate":120
-      },
-      "security-question":{
-        "minimum":1
-      },
-      "ldap":{
-        "enabled":true,
-        "host":"192.168.0.253",
-        "base-dn":"OU=sales, DC=gotrustid, DC=com",
-        "binding-dn":"OU=Administrator, DC=gotrustid, DC=com",
-        "binding-password":"pw12345",
-        "security":{
-          "ssl":false
-        },
-        "group":"GoTrustID Business Service",
-        "sync":30
-      }
+      "name": "Sophia Chiang",
+      "login": "schiang",
+      "password": "pw1",
+      "email": "schiang@gt.com",
+      "mobile": "650-555-0001",
+      "description": "Test Admin 1"
+    },
+    {
+      "id": 2,
+      "name": "Jack Lin",
+      "login": "jlin",
+      "password": "pw2",
+      "email": "jlin@gt.com",
+      "mobile": "650-555-0002",
+      "description": "Test Admin 2"
+    },
+    {
+      "id": 3,
+      "name": "Amy Wang",
+      "login": "awang",
+      "password": "pw3",
+      "email": "awang@gt.com",
+      "mobile": "650-555-0003",
+      "description": "Test Admin 3"
+    },
+    {
+      "id": 4,
+      "name": "Vivian Lu",
+      "login": "vlu",
+      "password": "pw4",
+      "email": "vlu@gt.com",
+      "mobile": "650-555-0004",
+      "description": "Test Admin 4"
+    },
+    {
+      "id": 5,
+      "name": "Marie Wu",
+      "login": "mwu",
+      "password": "pw5",
+      "email": "mwu@gt.com",
+      "mobile": "650-555-0005",
+      "description": "Test Admin 5"
     }
   ]
 }

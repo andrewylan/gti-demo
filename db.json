@@ -10,6 +10,13 @@
       ]
     }
   ],
+  "groups": [
+    {
+      "id": 1,
+      "group": "GTID_V2_T03",
+      "description": "For V1 testing"
+    }
+  ],
   "logs": [
     {
       "id": 1,

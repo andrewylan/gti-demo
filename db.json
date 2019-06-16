@@ -47,6 +47,29 @@
       "description": "For V1 testing"
     }
   ],
+  "providers": [
+    {
+      "id": 1,
+      "name": "GoTrust ID",
+      "type": "ADFS",
+      "verifications": [],
+      "groups": []
+    },
+    {
+      "id": 2,
+      "name": "GoTrust ID Business",
+      "type": "REST API",
+      "verifications": [],
+      "groups": []
+    },
+    {
+      "id": 3,
+      "name": "Windows Office 365",
+      "type": "ADFS",
+      "verifications": [],
+      "groups": []
+    }
+  ],
   "logs": [
     {
       "id": 1,
@@ -141,39 +164,6 @@
         "group":"GoTrustID Business Service",
         "sync":30
       }
-    }
-  ],
-  "about":[
-    {
-      "id": 1,
-      "version":"2.1.0.1",
-      "expiration":"2020-01-01",
-      "quantity":{
-        "used":92,
-        "allowed":100
-      },
-      "platform":[
-        {
-          "name":"windows",
-          "used":62,
-          "allowed":50
-        },
-        {
-          "name":"macos",
-          "used":30,
-          "allowed":50
-        }
-      ],
-      "module":[
-        {
-          "name":"PC Unlock",
-          "enabled":true
-        },
-        {
-          "name":"MFA",
-          "enabled":false
-        }
-      ]
     }
   ]
 }

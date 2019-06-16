@@ -15,6 +15,36 @@
       "id": 1,
       "group": "GTID_V2_T03",
       "description": "For V1 testing"
+    },
+    {
+      "id": 2,
+      "group": "GTID_V2_T",
+      "description": "-"
+    },
+    {
+      "id": 3,
+      "group": "GTID_V2_T01",
+      "description": "For V2 testing"
+    },
+    {
+      "id": 4,
+      "group": "GTID_V2_T02",
+      "description": "For V2 testing"
+    },
+    {
+      "id": 5,
+      "group": "GTID_V2_T03",
+      "description": "For V2 testing"
+    },
+    {
+      "id": 6,
+      "group": "GTID_V2_T01",
+      "description": "For V1 testing"
+    },
+    {
+      "id": 7,
+      "group": "GTID_V2_T02",
+      "description": "For V1 testing"
     }
   ],
   "logs": [
@@ -145,37 +175,5 @@
         }
       ]
     }
-  ],
-  "about_new":
-    {
-      "id": 1,
-      "version":"2.1.0.1",
-      "expiration":"2020-01-01",
-      "quantity":{
-        "used":92,
-        "allowed":100
-      },
-      "platform":[
-        {
-          "name":"windows",
-          "used":62,
-          "allowed":50
-        },
-        {
-          "name":"macos",
-          "used":30,
-          "allowed":50
-        }
-      ],
-      "module":[
-        {
-          "name":"PC Unlock",
-          "enabled":true
-        },
-        {
-          "name":"MFA",
-          "enabled":false
-        }
-      ]
-    }
+  ]
 }
